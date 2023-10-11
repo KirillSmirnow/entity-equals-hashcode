@@ -1,1 +1,1 @@
-# entity-equals-hashcode
+# Entity equals() and hashCode()
