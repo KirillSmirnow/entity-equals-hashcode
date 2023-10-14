@@ -26,11 +26,11 @@ class Base implements Identifiable<Long> {
     public final boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Base base)) return false;
-        return Objects.equals(id, base.id);
+        return Objects.equals(getId(), base.getId());
     }
 
     @Override
     public final int hashCode() {
-        return Objects.hash(id);
+        return Objects.hash(getId());
     }
 }
